@@ -1,18 +1,17 @@
-
-
 #ifndef CREATURE_H
 #define CREATURE_H
 
 #include "Entity.h"
+#include "Room.h"
 
 class Creature : public Entity {
 public:
-    Creature(const std::string& name, int damage);
+    Creature(const std::string& name, const std::string& description);
 
-    int getDamage() const;
 
 protected:
-    int m_damage;
+    int name_;
+    
 };
 
 #endif // CREATURE_H

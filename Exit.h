@@ -2,11 +2,13 @@
 #define EXIT_H
 
 #include "Entity.h"
+#include "Room.h"
+
 
 class Exit : public Entity {
 private:
-    Room* source_;
-    Room* destination_;
+    Room* source;
+    Room* destination;
 public:
     Exit(std::string name, std::string description,Room* source,  Room* destination);
     ~Exit();

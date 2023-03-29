@@ -3,7 +3,10 @@
 
 #include <string>
 #include <vector>
-#include "entity.h"
+#include "Entity.h"
+#include "Item.h"
+
+class Item;
 
 class Room : public Entity {
 public:
@@ -19,8 +22,10 @@ public:
     
 
 private:
+    std::string name;
+    std::string description;
     std::vector<Item*> items;
-    
+    std::vector<Room*> exits;
 };
 
 #endif

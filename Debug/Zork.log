@@ -1,11 +1,4 @@
-﻿  Creature.cpp
-  Entity.cpp
-  Player.cpp
-C:\Users\Jaime\source\repos\Zork\Zork\Player.h(16,10): error C2039: "vector": no es un miembro de "std"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string(24): message : vea la declaración de 'std'
-C:\Users\Jaime\source\repos\Zork\Zork\Player.h(16,16): error C2143: error de sintaxis: falta ';' delante de '<'
-C:\Users\Jaime\source\repos\Zork\Zork\Player.h(16,16): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\Jaime\source\repos\Zork\Zork\Player.h(16,35): error C2238: símbolos (token) inesperados delante de ';'
-  Room.cpp
+﻿  Player.cpp
   world.cpp
   Generando código...
+  Zork.vcxproj -> C:\Users\Jaime\source\repos\Zork\Debug\Zork.exe

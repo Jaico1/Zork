@@ -2,10 +2,12 @@
 #define NPC_H
 
 #include "Creature.h"
+#include "Item.h"
+#include "Room.h"
 
-class NPC : public Creature {
+class Npc : public Creature {
 public:
-    NPC(const std::string& name, int health, int damage, const std::string& message, Room* spawnroom);
+    Npc(const std::string& name, const std::string& description, int health, int damage, const std::string& message, Room* spawnroom);
 
     void talk() const;
 
