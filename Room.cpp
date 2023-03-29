@@ -8,8 +8,9 @@ Room::Room(const std::string& name, const std::string& description)
 }
 
 
-
-
+void Room::addItem(Item* item) {
+    items.push_back(item);
+}
 
 
 void Room::addExit(const std::string& name, Room* exit) {

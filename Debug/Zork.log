@@ -1,4 +1,5 @@
-﻿  Player.cpp
+﻿  Creature.cpp
+  Room.cpp
   world.cpp
   Generando código...
   Zork.vcxproj -> C:\Users\Jaime\source\repos\Zork\Debug\Zork.exe

@@ -23,12 +23,17 @@ World::World() {
     // Create items
     Item* key = new Item("key", "A shiny golden key", livingRoom);
     Item* sword = new Item("sword", "A sharp steel sword", hallway);
+    Item* meat = new Item("Dry meat", "a piece of dried meet, has a sketchy smell", kitchen);
 
     // Set up room exits
     livingRoom->addExit("door", kitchen);
     kitchen->addExit("door", livingRoom);
     kitchen->addExit("window", hallway);
     hallway->addExit("window", kitchen);
+
+    livingRoom->addItem(key);
+    hallway->addItem(sword);
+    kitchen->addItem(meat);
 
     // Create player
     Player* player = new Player("Visitor","You enter a mysterious house", 100, 10, livingRoom);
